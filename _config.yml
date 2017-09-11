@@ -4,8 +4,8 @@
 
 # Site
 title: 王科杰
-subtitle: Jack
-description: 王科杰的个人网站
+subtitle: Jack's Notes
+description: 书山有路勤为径，学海无涯苦作舟！
 author: Jack Wong
 language: zh-Hans
 timezone:
@@ -82,4 +82,21 @@ theme: hexo-next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  - type: ftpsync
+    host: 60.205.47.3
+    user: bxu2713750252
+    pass: jieyuan1314
+    remote: /htdocs/
+    port: 21
+    ignore: /logreport/
+    connections: 1
+    verbose: true
+  - type: git
+    repo: https://github.com/wangkejie/blogspage.git
+    branch: master
+    message: 
+
+
+
+
+
