@@ -2,7 +2,3 @@
 	path = themes/hexo-next
 	url = git@github.com:wangkejie/hexo-next.git
 	branch = master
-[submodule "source/_post"]
-	path = source/_post
-	url = git@github.com:wangkejie/post.git
-	branch = master
