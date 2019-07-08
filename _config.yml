@@ -92,7 +92,7 @@ deploy:
   #   connections: 1
   #   verbose: true
   - type: git
-    repo: https://github.com/wangkejie/blogspage.git
+    repo: git@github.com:wangkejie/wangkejie.github.io.git
     branch: master
     message: 
 
