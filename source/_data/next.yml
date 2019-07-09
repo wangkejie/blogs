@@ -158,14 +158,14 @@ baidu_push: true
 # External url should start with http:// or https://
 menu:
   home: / || home
-  about: /RunLoop/ || user
+  # about: /RunLoop/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  schedule: /schedule/ || calendar
-  sitemap: /sitemap.xml || sitemap
-  commonweal: /404/ || heartbeat
-  iOS技术目录: /iOS技术汇总/ || user
+  # schedule: /schedule/ || calendar
+  # sitemap: /sitemap.xml || sitemap
+  # commonweal: /404/ || heartbeat
+  # iOS技术目录: /iOS技术汇总/ || user
 
 # Enable / Disable menu icons / item badges.
 menu_settings:

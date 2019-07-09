@@ -8,11 +8,11 @@ subtitle: Jack's Notes
 description: 书山有路勤为径，学海无涯苦作舟！
 author: Jack Wang
 language: zh-CN
-timezone:
+timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wangkejie.com
+url: https://wangkejie.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -94,7 +94,7 @@ deploy:
   - type: git
     repo: git@github.com:wangkejie/wangkejie.github.io.git
     branch: master
-    message: 
+    message: "Updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 
 
