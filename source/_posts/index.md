@@ -9,12 +9,13 @@ description: 记录一些平时收集的，感悟的东西
 
 # 欢迎来到我的博客
 
-### cxxc
+### 关于iOS技术部分（暂时只有iOS的相关内容）
 
-- [scrollView的一些问题](/iOS/)
-    - sdff
-    - dfdf
-- RunLoop的一些问题
+- 你可以点击[iOS目录](/iOS/)，查看更详细的大纲
+    1. [RunLoop相关知识点](/iOS/RunLoop/)
+    2. [RunTime相关知识点](/iOS/ScrollView/)
+- Python学习中的感悟
+- 思考人生
 
 
 ## Elegant and Powerful Theme for Hexo
