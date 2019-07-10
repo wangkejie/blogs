@@ -1,20 +1,24 @@
 ---
 title: RunLoop概念
 date: 2017-09-15 11:26:39
+updated: 
+comments:
+permalink: 
 tags: RunLoop
-categories: iOS
+categories: 
+    - iOS
+    - RunLoop
+
 ---
 
-[test](/iOS/r1)
-
-#### 一、RunLoop概念
+#### RunLoop概念
 
 RunLoop是通过内部维护的`事件循环(Event Loop)`来对`事件/消息进行管理`的一个对象。
 
 1、没有消息处理时，休眠已避免资源占用，由用户态切换到内核态(CPU-内核态和用户态)
 2、有消息需要处理时，立刻被唤醒，由内核态切换到用户态
 
-**为什么main函数不会退出？**
+##### 为什么main函数不会退出？
 
 ``` 
 int main(int argc, char * argv[]) {

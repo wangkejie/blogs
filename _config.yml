@@ -14,8 +14,8 @@ timezone: UTC
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://wangkejie.com
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink: :title.html
+permalink_defaults: un
 
 #duoshuo
 #duoshuo:
@@ -35,7 +35,7 @@ skip_render:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
