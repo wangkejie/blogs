@@ -1,11 +1,13 @@
 ---
 title: 我的博客首页
-# date: 2017-09-15 11:26:39
+date: 2017-09-15 11:26:39
 description: 记录一些平时收集的，感悟的东西
 tags: 文章索引
 categories: 
 - home
 # link: 
+top: 1
+sticky: 1
 ---
 
 # 欢迎来到我的博客
