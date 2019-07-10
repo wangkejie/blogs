@@ -165,7 +165,7 @@ menu:
   # sitemap: /sitemap.xml || sitemap
   # commonweal: /404/ || heartbeat
   # iOS技术目录: /iOS技术汇总/ || user
-  about: /RunLoop/ || user
+  about: /me/ || user
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
