@@ -672,8 +672,8 @@ gitalk:
 # Baidu Share
 # Available values: button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+baidushare:
+ type: button
 
 # AddThis Share, See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
@@ -741,7 +741,7 @@ baidu_analytics: 93e26277de0cf2c5851167f2c6dcaa7d
 #  localhost_ignored: true
 
 # CNZZ count
-#cnzz_siteid:
+cnzz_siteid: 1277804316
 
 # Application Insights
 # See: https://azure.microsoft.com/en-us/services/application-insights
@@ -827,7 +827,7 @@ busuanzi_count:
 # Search Services
 # See: https://theme-next.org/docs/third-party-services/search-services
 # ---------------------------------------------------------------
-
+ 
 # Algolia Search
 # See: https://theme-next.org/docs/third-party-services/search-services#Algolia-Search
 # Dependencies: https://github.com/theme-next/theme-next-algolia-instant-search
@@ -843,7 +843,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -852,6 +852,11 @@ local_search:
   # Unescape html strings to the readable one.
   unescape: false
 
+
+
+
+
+ 
 # Swiftype Search API Key
 #swiftype_key:
 
