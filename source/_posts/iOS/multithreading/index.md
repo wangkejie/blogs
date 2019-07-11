@@ -539,3 +539,4 @@ NSThread在实际开发中比较常用到的场景就是去实现常驻线程。
 　　
 **自旋锁：atomic、OSSpinLock、dispatch_semaphore_t**
 **互斥锁：pthread_mutex、@ synchronized、NSLock、NSConditionLock 、NSCondition、NSRecursiveLock**
+更多内容可移步大神详解[OSSpinLock](https://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/)
