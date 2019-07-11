@@ -7,6 +7,32 @@ categories:
 - Objetive-C
 ---
 
+
+## 苹果的源代码
+
+https://openSource.apple.com/tarballs
+
+## 事件响应
+个人语言简述如下
+- 事件(例如点击屏幕)产生后，系统会把事件传递给当前的application，然后是window依次传递给viewcontroller，最后是手指所接触的view，
+- 这个过程会被阻断，比如 userInteractionEnabled = NO,再比如隐藏 hidden = YES.再比如指定了`hitTest：withEvent：`方法等。
+- 然后，开始处理事件，view(UIResponder)来响应，view不处理，则上一级接受到继续，一直到application,这个过程重要的方法如下
+
+```
+// 上一个响应者可能是父控件
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{ 
+// 默认会把事件传递给上一个响应者,上一个响应者是父控件,交给父控件处理
+
+//再比如自己处理完还想让父响应者也处理，就在这写一些东西
+//do something here
+
+[super touchesBegan:touches withEvent:event]; 
+// 注意不是调用父控件的touches方法，而是调用父类的touches方法
+// super是父类 superview是父控件 
+}
+```
+
+
 ## 属性关键字
 
 1.读写权限：readonly,readwrite(默认)

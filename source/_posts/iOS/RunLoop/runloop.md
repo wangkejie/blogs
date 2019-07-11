@@ -31,7 +31,7 @@ categories:
 
 不起作用，子线程默认没有 `Runloop`，也就没有 `Timer`。
 
-解决的办法是可以使用 `GCD` 来实现：`Dispatch_after`
+解决的办法是可以使用 `GCD` 来实现：`Dispatch_after`
 
 ## 四、为什么 `NSTimer` 有时候不好使？
 

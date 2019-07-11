@@ -140,7 +140,7 @@ exturl: false
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-#baidu_site_verification:
+baidu_site_verification: "9BDlx6FiNE"
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: true
@@ -198,7 +198,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink.
 # Value after `||` delimiter is the name of FontAwesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
 social:
-  # GitHub: https://github.com/yourname || github
+  GitHub: https://github.com/Jack-Ving || github
   E-Mail: mailto:727881945@qq.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
@@ -778,7 +778,7 @@ vkontakte_api:
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: true
+  enable: false
   id:     19683
   color:  fc6423
 # ---------------------------------------------------------------
