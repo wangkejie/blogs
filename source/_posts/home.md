@@ -23,8 +23,10 @@ categories:
     - [内存管理](/iOS/memorymanagerment/index.html)
     - [iOS优化](/iOS/performance/index.html)
 
-- Python学习中 （后续补心得）
-- 大数据学习中（后续补心得）
+## 慢慢积累补充
+- Linux学习
+- Python学习
+- 大数据学习
 - 思考人生
 
 <!-- more --> 
