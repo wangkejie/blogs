@@ -15,7 +15,7 @@ https://openSource.apple.com/tarballs
 ## 事件响应
 个人语言简述如下
 - 事件(例如点击屏幕)产生后，系统会把事件传递给当前的application，然后是window依次传递给viewcontroller，最后是手指所接触的view，
-- 这个过程会被阻断，比如 userInteractionEnabled = NO,再比如隐藏 hidden = YES.再比如指定了`hitTest：withEvent：`方法等。
+- 这个过程会被阻断，比如 userInteractionEnabled = NO,再比如隐藏 hidden = YES.透明度<0.01,再比如指定了`hitTest：withEvent：`方法等。
 - 然后，开始处理事件，view(UIResponder)来响应，view不处理，则上一级接受到继续，一直到application,这个过程重要的方法如下
 
 ```
