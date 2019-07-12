@@ -20,8 +20,10 @@ categories:
     - [block相关](/iOS/block/index.html)
     - [animation动画](/iOS/animation/index.html)
     - [算法收集](/iOS/algorithm/index.html)
-    - [内存管理](/iOS/memorymanagerment/index.html)
+    - [内存管理](/iOS/memorymanagerment/memory.html)
     - [iOS优化](/iOS/performance/index.html)
+
+- 慕课网买的课程学习中，[点击查看笔记](/iOS/study.html)
 
 ## 慢慢积累补充
 - Linux学习
