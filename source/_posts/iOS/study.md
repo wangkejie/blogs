@@ -448,3 +448,13 @@ NSRunLoop 是CFRunLoop的封装，提供了面向对象的API, [开源地址](ht
 ## s事件循环的实现机制
 void CFRunLoopRun(),用户态到核心态相互切换
 {% fi /images/iOS/RunLoop-machining.png, RunLoop循环机制， 100% %}
+
+## 常驻线程
+由于自己创建的线程并没有开启runloop(一一对应关系)，需要创建并开启一个Runloop
+1. 为当前线程开启一个RunLoop. 
+2. 向该RunLoop中添加一个Port/Source等维持RunLoop的事件循环. 没有就会退出
+3. 启动该RunLoop
+
+
+# 网络
+
